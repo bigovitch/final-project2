@@ -1,0 +1,19 @@
+
+<ion-content><app-login-button></app-login-button>
+<div class="header">
+  <h1>Menu</h1> 
+</div>
+<!--SEARCH BAR-->
+<app-searchbar></app-searchbar>
+<!--Category-->
+<div class="categories">
+  <app-category-item *ngFor="let item of categories" [item]="item"></app-category-item>
+</div>
+<!--products-->
+<h1 class="list-header">Dishes</h1>
+<div class="food-list">
+  <app-food-card *ngFor=" let food of foods"[item]="food" (clicked)="goToDetailPage(food.id)" >
+    
+  </app-food-card>
+</div>
+</ion-content>

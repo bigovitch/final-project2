@@ -1,0 +1,26 @@
+
+<ion-content>
+  <div class="header">
+    <ion-buttons >
+      <ion-button routerLink="/home/listing">
+      <ion-icon slot="icon-only" color='light' name="arrow-back"></ion-icon>
+    </ion-button>
+    </ion-buttons>
+    
+  </div> 
+
+  <!--food detail card--> 
+   <div class="card">
+    <div class="image">
+      <ion-img [src]="'assets/images/foods/' + food.image"></ion-img>
+
+    </div>
+<div class="card-content">
+  <div class="card-title">
+    <h1 class="ion-no-margin">{{food.title}}</h1>
+<p class="ion-no-margin"><sup>$</sup>{{ food.price}}</p>
+  </div>
+</div>
+  </div>
+
+</ion-content> 

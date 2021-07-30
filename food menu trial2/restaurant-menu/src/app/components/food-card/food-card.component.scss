@@ -1,0 +1,52 @@
+.card{
+    width:100%;
+    padding:20px 30px;
+    background: #f3f3f3;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 40px;
+    margin-bottom: 24px;
+
+    .card-content{
+        text-align: center;
+
+        .title{
+         font-weight: 600;
+         font-size: 17px;
+         margin-bottom: 4px;
+         color: black;
+
+        }
+        .sub-title{
+            font-size: 20px;
+            font-weight: 600;
+            color: #070c01;
+            margin-top: 10px;
+            sup{
+                font-size: 18px;
+
+            }
+        }
+        ion-buttons{
+        position:relative;
+        left:50%;
+        align-items: center;
+        // bottom: -16px;
+        transform:translateX(-50%);
+
+        ion-button{
+            background: rgb(28, 109, 185);
+            font-weight: 700;
+            color:#fff;
+            width:40px;
+            height:40px;
+            
+        }
+        
+        }
+    }
+}
+
+  
