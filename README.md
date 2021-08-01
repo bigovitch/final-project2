@@ -1,4 +1,5 @@
 # final-project2
+id      title   price   description             calories   image
 1	Steak	25	AAA sirloin steak	190	steak.png
 2	Burger	20	best albertan beef	280	burger.png
 3	Sushi	25	raw fish served with your favourite sauce	150	sushi.png
